@@ -27,9 +27,9 @@ int Train::getLength() {
             length++;
             currentCage = currentCage->next;
         }
+        countOp = length + length * length
     }
-    countOp = length;
-    return countOp;
+    return length;
 }
 
 int Train::getOpCount() {
