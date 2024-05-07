@@ -30,12 +30,12 @@ int Train::getLength() {
         Cage* currentCage = first->next;
         while (currentCage != first) {
             length++;
-            currentCage = currentCage->next;      
+            currentCage = currentCage->next;
         }
     }
-    return length;
+   return length;
 }
 
 int Train::getOpCount() {
-    return countOp;
+     return countOp;
 }
