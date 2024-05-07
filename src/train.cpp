@@ -33,7 +33,7 @@ int Train::getLength() {
             currentCage = currentCage->next;
         }
     }
-   return length;
+    return length;
 }
 
 int Train::getOpCount() {
