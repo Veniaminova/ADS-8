@@ -17,7 +17,6 @@ void Train::addCage(bool light) {
         lastCage->next = newCage;
     }
     if (!light) {
-        countOp = getLength();
         countOp += getLength();
     } else {
         countOp += 2 * getLength();
